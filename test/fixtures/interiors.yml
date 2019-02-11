@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  upholstery: MyString
+  color: MyString
+  trim: MyString
+  standard: false
+  msrp: 1
+
+two:
+  upholstery: MyString
+  color: MyString
+  trim: MyString
+  standard: false
+  msrp: 1
