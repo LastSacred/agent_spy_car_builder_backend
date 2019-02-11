@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_02_11_200106) do
+ActiveRecord::Schema.define(version: 2019_02_11_200919) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -108,7 +108,6 @@ ActiveRecord::Schema.define(version: 2019_02_11_200106) do
 
   create_table "wheels", force: :cascade do |t|
     t.string "name"
-    t.string "description"
     t.string "size"
     t.string "finish"
     t.boolean "standard"
