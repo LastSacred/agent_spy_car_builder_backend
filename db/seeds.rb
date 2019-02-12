@@ -6,7 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-spade = Car.create(name: "The Spade", description: "", msrp: 109799.00)
+lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porttitor dui. Duis fermentum ipsum et velit mollis ullamcorper. Vestibulum."
+
+spade = Car.create(name: "The Spade", description: lorem, msrp: 109799.00, image: 'https://cnet4.cbsistatic.com/img/IlDhfYQLGl-s1suzwZkgLDnYFow=/2009/03/31/98ad5f9c-f8df-11e2-8c7c-d4ae52e62bcc/car.jpg')
 
 
 
@@ -43,9 +45,9 @@ spade.interiors << Interior.create(upholstery: "Full Merino Leather", color: "Ta
 
 
 
-spade.accessories << Accessory.create(name: "Triple Pained Bullet Proof Glass", description: "", msrp: 6999.00)
-spade.accessories << Accessory.create(name: "Rear SmokeScreen with Tire Spikes", description: "", msrp: 4500.00)
-spade.accessories << Accessory.create(name: "Passenger Ejector Seat With Parachute", description: "", msrp: 7900.00)
-spade.accessories << Accessory.create(name: "Sun Roof Mounted Missile Rack", description: "", msrp: 24000.00)
-spade.accessories << Accessory.create(name: "Laser Guided Anti-Air-Craft Missiles", description: "", msrp: 78000.00)
-spade.accessories << Accessory.create(name: "Dual Front & Rear 50cal. Machine Guns", description: "", msrp: 23000.00)
+spade.accessories << Accessory.create(name: "Triple Pained Bullet Proof Glass", description: lorem, msrp: 6999.00)
+spade.accessories << Accessory.create(name: "Rear SmokeScreen with Tire Spikes", description: lorem, msrp: 4500.00)
+spade.accessories << Accessory.create(name: "Passenger Ejector Seat With Parachute", description: lorem, msrp: 7900.00)
+spade.accessories << Accessory.create(name: "Sun Roof Mounted Missile Rack", description: lorem, msrp: 24000.00)
+spade.accessories << Accessory.create(name: "Laser Guided Anti-Air-Craft Missiles", description: lorem, msrp: 78000.00)
+spade.accessories << Accessory.create(name: "Dual Front & Rear 50cal. Machine Guns", description: lorem, msrp: 23000.00)
