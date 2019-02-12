@@ -8,7 +8,7 @@
 
 lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porttitor dui. Duis fermentum ipsum et velit mollis ullamcorper. Vestibulum."
 
-spade = Car.create(name: "The Spade", description: lorem, msrp: 109799.00, image: 'https://cnet4.cbsistatic.com/img/IlDhfYQLGl-s1suzwZkgLDnYFow=/2009/03/31/98ad5f9c-f8df-11e2-8c7c-d4ae52e62bcc/car.jpg')
+spade = Car.create(name: "The Spade", description: "The Spade is Agent's flagship vehicle, and our most versatile offering. Boasting a wide variety of feature options, this is the choice for the spy who values flexibility.", msrp: 109799.00, image: 'https://cnet4.cbsistatic.com/img/IlDhfYQLGl-s1suzwZkgLDnYFow=/2009/03/31/98ad5f9c-f8df-11e2-8c7c-d4ae52e62bcc/car.jpg')
 
 
 
