@@ -34,13 +34,13 @@ i3 = Interior.create(upholstery: 'Full Merino Leather', color: "Caramel-Black", 
 i4 = Interior.create(upholstery: "Full Merino Leather", color: "Tartufo", standard: false, trim: "Plum Brown Wood Trim", msrp: 4200.00)
 i6 = Interior.create(upholstery: "Full Merino Leather", color: "Ivory White", standard: false, trim: "Plum Brown Wood Trim", msrp: 4700.00)
 
-a1 = Accessory.create(name: "Triple Pained Bullet Proof Glass", description: lorem, msrp: 6999.00)
-a2 = Accessory.create(name: "Rear SmokeScreen with Tire Spikes", description: lorem, msrp: 4500.00)
-a3 = Accessory.create(name: "Passenger Ejector Seat With Parachute", description: lorem, msrp: 7900.00)
-a4 = Accessory.create(name: "Sun Roof Mounted Missile Rack", description: lorem, msrp: 24000.00)
-a5 = Accessory.create(name: "Laser Guided Anti-Air-Craft Missiles", description: lorem, msrp: 78000.00)
-a6 = Accessory.create(name: "Dual Front & Rear 50cal. Machine Guns", description: lorem, msrp: 23000.00)
-a7 = Accessory.create(name: "Nitrous Oxide Injection System", description: lorem, msrp: 23000.00)
+a1 = Accessory.create(name: "Triple Pained Bullet Proof Glass", description: "Unpopular with gun toting baddies? This glass upgrade is sure to ruin their nefarious plans.", msrp: 6999.00)
+a2 = Accessory.create(name: "Rear SmokeScreen with Tire Spikes", description: "As a spy you may have an affinity for being chased. Best to be prepared.", msrp: 4500.00)
+a3 = Accessory.create(name: "Passenger Ejector Seat With Parachute", description: "To save your passengers life before the situation gets messy, or to save yourself from sub-par conversation. (Parachute activation optional)", msrp: 7900.00)
+a4 = Accessory.create(name: "Sun Roof Mounted Missile Rack", description: "For those times when you're out for a Sunday drive and realize you absolutely must completely destroy that thing over there.", msrp: 24000.00)
+a5 = Accessory.create(name: "Laser Guided Anti-Air-Craft Missiles", description: "Unfortunately we haven't developed any models that fly, but if you find you are jealous of things that do, use this accessory to rectify the situation.", msrp: 78000.00)
+a6 = Accessory.create(name: "Dual Front & Rear 50cal. Machine Guns", description: "Very efficient at distributing large quantities of bullets.", msrp: 23000.00)
+a7 = Accessory.create(name: "Nitrous Oxide Injection System", description: "A shot of espresso for your engine.", msrp: 23000.00)
 
 spade = Car.create(
   powertrains: [p1, p2, p3, p4],
